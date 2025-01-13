@@ -1,4 +1,4 @@
-def second_order(f,x0,y1,h):
+def second_order(f,x0,x1,y1,h):
     k1 = h*f(x0+h,y1)
     k2 = h*f(x1+h,y1+k1)
     y = y1 + (k1+k2)/2
