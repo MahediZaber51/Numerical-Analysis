@@ -12,7 +12,7 @@ def weddle(x,y,n):
         s += 1 * y[i+4]
         s += 5 * y[i+5]
         s += 1 * y[i+6]
-    return 3*h*(y[0]+y[n- 1]+s)/10
+    return 3*h*s/10
 
 x = []
 y = []
